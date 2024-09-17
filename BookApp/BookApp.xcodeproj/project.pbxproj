@@ -36,13 +36,13 @@
 		4A52431E2C824DCE00707AB0 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243032C824DCE00707AB0 /* URLSessionProtocol.swift */; };
 		4A52431F2C824DCE00707AB0 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243052C824DCE00707AB0 /* RootScreen.swift */; };
 		4A5243732C825D6000707AB0 /* BoorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5242EE2C824DCE00707AB0 /* BoorRowView.swift */; };
-		4A5243742C825DFB00707AB0 /* BookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243702C825B8600707AB0 /* BookApp.xcdatamodeld */; };
 		4A5243772C831DC100707AB0 /* CustomBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243752C82925500707AB0 /* CustomBackground.swift */; };
 		4A5243792C834CB700707AB0 /* Colors+assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243782C834CB700707AB0 /* Colors+assets.swift */; };
 		4A52437C2C835DFC00707AB0 /* ScreenPreviewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A52437B2C835DFC00707AB0 /* ScreenPreviewRepository.swift */; };
 		4A52437F2C83B38900707AB0 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A52437E2C83B38800707AB0 /* NetworkMonitor.swift */; };
 		4A5243812C83B6B200707AB0 /* NetworkMonitoringProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243802C83B6B200707AB0 /* NetworkMonitoringProtocol.swift */; };
 		4A5243832C83B72800707AB0 /* MockNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5243822C83B72800707AB0 /* MockNetworkMonitor.swift */; };
+		4AA7B7E72C9A2434001F49D8 /* BookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7B7E52C9A2434001F49D8 /* BookApp.xcdatamodeld */; };
 		4AB5F63E2C85253600790968 /* EnhancedMockNetworkMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5F6382C85253600790968 /* EnhancedMockNetworkMonitorTests.swift */; };
 		4AB5F63F2C85253600790968 /* EnhancedMockNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5F6392C85253600790968 /* EnhancedMockNetworkMonitor.swift */; };
 		4AB5F6402C85253600790968 /* BookIntentHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5F63A2C85253600790968 /* BookIntentHandlerTests.swift */; };
@@ -102,13 +102,13 @@
 		4A5243022C824DCE00707AB0 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
 		4A5243032C824DCE00707AB0 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		4A5243052C824DCE00707AB0 /* RootScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
-		4A5243712C825B8600707AB0 /* BookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookApp.xcdatamodel; sourceTree = "<group>"; };
 		4A5243752C82925500707AB0 /* CustomBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBackground.swift; sourceTree = "<group>"; };
 		4A5243782C834CB700707AB0 /* Colors+assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+assets.swift"; sourceTree = "<group>"; };
 		4A52437B2C835DFC00707AB0 /* ScreenPreviewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPreviewRepository.swift; sourceTree = "<group>"; };
 		4A52437E2C83B38800707AB0 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		4A5243802C83B6B200707AB0 /* NetworkMonitoringProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitoringProtocol.swift; sourceTree = "<group>"; };
 		4A5243822C83B72800707AB0 /* MockNetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkMonitor.swift; sourceTree = "<group>"; };
+		4AA7B7E62C9A2434001F49D8 /* BookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookApp.xcdatamodel; sourceTree = "<group>"; };
 		4AB5F6382C85253600790968 /* EnhancedMockNetworkMonitorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedMockNetworkMonitorTests.swift; sourceTree = "<group>"; };
 		4AB5F6392C85253600790968 /* EnhancedMockNetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedMockNetworkMonitor.swift; sourceTree = "<group>"; };
 		4AB5F63A2C85253600790968 /* BookIntentHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookIntentHandlerTests.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				4A5242FE2C824DCE00707AB0 /* Screens */,
 				4A5242F02C824DCE00707AB0 /* UIElements */,
 				4A5242B42C824CCF00707AB0 /* Assets.xcassets */,
-				4A5243702C825B8600707AB0 /* BookApp.xcdatamodeld */,
+				4AA7B7E52C9A2434001F49D8 /* BookApp.xcdatamodeld */,
 				4A5242B62C824CCF00707AB0 /* Preview Content */,
 				4A5242E32C824DCD00707AB0 /* BookApp-Bridging-Header.h */,
 			);
@@ -483,7 +483,6 @@
 				4A52437C2C835DFC00707AB0 /* ScreenPreviewRepository.swift in Sources */,
 				4A52431E2C824DCE00707AB0 /* URLSessionProtocol.swift in Sources */,
 				4A5243142C824DCE00707AB0 /* BookIntentHandler.swift in Sources */,
-				4A5243742C825DFB00707AB0 /* BookApp.xcdatamodeld in Sources */,
 				4A5243152C824DCE00707AB0 /* BookState.swift in Sources */,
 				4A52430C2C824DCE00707AB0 /* BookAppApp.swift in Sources */,
 				4A5243072C824DCE00707AB0 /* LocalStorageSourceProtocol.swift in Sources */,
@@ -497,6 +496,7 @@
 				4A5243112C824DCE00707AB0 /* CoreDataManager.swift in Sources */,
 				4A5243122C824DCE00707AB0 /* Persistence.swift in Sources */,
 				4A52431D2C824DCE00707AB0 /* RestClient.swift in Sources */,
+				4AA7B7E72C9A2434001F49D8 /* BookApp.xcdatamodeld in Sources */,
 				4A5243732C825D6000707AB0 /* BoorRowView.swift in Sources */,
 				4A52430A2C824DCE00707AB0 /* BookRepository.swift in Sources */,
 				4A5243062C824DCE00707AB0 /* LocalStorageSource.swift in Sources */,
@@ -876,14 +876,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4A5243702C825B8600707AB0 /* BookApp.xcdatamodeld */ = {
+		4AA7B7E52C9A2434001F49D8 /* BookApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4A5243712C825B8600707AB0 /* BookApp.xcdatamodel */,
+				4AA7B7E62C9A2434001F49D8 /* BookApp.xcdatamodel */,
 			);
-			currentVersion = 4A5243712C825B8600707AB0 /* BookApp.xcdatamodel */;
+			currentVersion = 4AA7B7E62C9A2434001F49D8 /* BookApp.xcdatamodel */;
 			name = BookApp.xcdatamodeld;
-			path = /Users/andrux/Desktop/BookApp/BookApp/BookApp.xcdatamodeld;
+			path = /Users/andrux/Projects/booktest/BookApp/BookApp/BookApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
